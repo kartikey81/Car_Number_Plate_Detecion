@@ -3,15 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <script>
-  window.onload = function() {
-    document.body.style.zoom = "33%";
-  };
-</script>
+    
 
     <title>Car License Plate Detector</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <style>
+        body {
+  zoom: 0.33;
+  -moz-transform: scale(0.33);
+  -moz-transform-origin: 0 0;
+  -o-transform: scale(0.33);
+  -o-transform-origin: 0 0;
+  -webkit-transform: scale(0.33);
+  -webkit-transform-origin: 0 0;
+}
+
         .jumbotron {
             background-image: url('/static/background.jpg');
             background-size: cover;
